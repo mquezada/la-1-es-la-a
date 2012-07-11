@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout android:background="#252426" android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:src="@drawable/headerfin" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/summary_title"></ImageView>
+        </TableRow>
+        <TableRow android:paddingBottom="20dp" android:id="@+id/tableRow2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center">
+            <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="50dp" android:textColor="#14A9DA" android:text="100" android:id="@+id/scoreView" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableLayout android:stretchColumns="0,1,2" android:id="@+id/tableLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TableRow android:id="@+id/tableRow4" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:adjustViewBounds="true" android:maxWidth="50dp" android:maxHeight="30dp" android:src="@drawable/ticket" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="fill_parent"></ImageView>
+                <ImageView android:adjustViewBounds="true" android:maxWidth="50dp" android:maxHeight="30dp" android:src="@drawable/cruz" android:id="@+id/imageView1" android:layout_width="fill_parent" android:layout_height="fill_parent"></ImageView>
+                <ImageView android:adjustViewBounds="true" android:maxWidth="25dp" android:maxHeight="10dp" android:src="@drawable/omitidas" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1"></ImageView>
+                </TableRow>
+                <TableRow android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/tableRow5" android:gravity="center">
+                <TextView android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:text="1" android:layout_height="wrap_content" android:id="@+id/correctView" android:layout_width="wrap_content"></TextView>
+                <TextView android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:text="1" android:layout_height="wrap_content" android:id="@+id/incorrectView" android:layout_width="wrap_content"></TextView>
+                <TextView android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:text="1" android:layout_height="wrap_content" android:id="@+id/skippedView" android:layout_width="wrap_content"></TextView>
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        
+        </TableRow>
+        <TableLayout android:shrinkColumns="*" android:id="@+id/tableLayout3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TableRow android:id="@+id/tableRow7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:padding="10dp" android:src="@drawable/botonvolver" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/backButton"></ImageView>
+            <ImageView android:padding="10dp" android:src="@drawable/botonnuevo" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/playAgainButton"></ImageView>
+            </TableRow>
+        </TableLayout>
+    </TableLayout>

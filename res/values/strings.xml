@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, InitialActivity!</string>
+    <string name="app_name">La 1 es la A</string>
+    <string name="no_conexion_title">Error de conexión</string>
+    <string name="error_ranking">Ocurrió un error</string>
+    <string name="subject1">Aritmética</string>
+    <string name="subject2">Razones y Proporciones</string>
+    <string name="subject3">Potencias y Logaritmos</string>
+    <string name="subject4">Algebra</string>
+    <string name="subject5">Probabilidades y Estadística</string>
+    <string name="subject6">Geometría</string>
+    <string name="subject7">Funciones</string>
+
+</resources>

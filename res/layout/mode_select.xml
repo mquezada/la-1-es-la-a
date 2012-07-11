@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#252426">
+
+    <ImageView
+    android:padding="10dip"
+        android:id="@+id/imageView1"
+        android:src="@drawable/headermodo" 
+        android:layout_width="fill_parent" android:layout_height="140dp"/>
+    <TableLayout  android:paddingBottom="50dp" android:weightSum="3" android:layout_width="fill_parent" android:id="@+id/tableLayout1" android:layout_height="fill_parent">
+        <TableRow  android:layout_weight="1" android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:padding="15dp" android:src="@drawable/botonclasico" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/select_classic"></ImageView>
+        </TableRow>
+        <TableRow android:layout_weight="1" android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:padding="15dp" android:src="@drawable/botonhilo" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/select_hilo"></ImageView>
+        </TableRow>
+        <TableRow android:layout_weight="1" android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:padding="15dp" android:src="@drawable/botontiempo" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/select_time"></ImageView>
+        </TableRow>
+    </TableLayout>
+
+        
+
+
+
+</LinearLayout>
