@@ -1,0 +1,7 @@
+* La 1 es la A
+
+Más info en http://www.hashtag.cl/post/25553069026/la-1-es-la-a
+
+*No se seguirá desarrollando este proyecto*
+
+Ver https://github.com/mquezadav/psu-android
